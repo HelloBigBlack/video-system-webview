@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import uploadVideo from '@/components/admin/video/uploadVideo'
 import videoManage from '@/components/admin/video/videoManage'
 import videoPlay from '@/components/videoPlay/videoPlay'
+import userManage from '@/components/admin/user/userManage'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/videoPlay/:id',
       name: 'videoPlay',
       component: videoPlay
+    },
+    {
+      path: '/admin/userManage',
+      name: 'userManage',
+      component: userManage
     }
   ]
 })

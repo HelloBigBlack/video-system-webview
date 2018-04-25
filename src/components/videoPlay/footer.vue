@@ -38,4 +38,24 @@ export default {
     margin-right: auto;
     clear: both;
   }
+  .content .message{
+    margin-top: 40px;
+    float: left;
+    width: 200px;
+  }
+  .content .message .message-head{
+    font-size: 13px;
+    color: #545454;
+  }
+  .content .message .message-body{
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+    width: 200px;
+  }
+  .content .message .message-body .item{
+    height: 30px;
+    float: left;
+    width: 100px;
+  }
 </style>

@@ -18,7 +18,7 @@
             </el-menu-item>
             <el-menu-item index="/admin/userManage">
               <i class="el-icon-setting"></i>
-              <span slot="title">导航四</span>
+              <span slot="title">用户管理</span>
             </el-menu-item>
           </el-menu>
         </el-aside>

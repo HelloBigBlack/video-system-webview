@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div id="app">
     <el-row class="login-form">
       <el-col :span="6" :offset="9">

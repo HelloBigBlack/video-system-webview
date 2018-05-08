@@ -26,7 +26,8 @@ module.exports = {
     app: './src/main.js',
     videoMain: './src/pages/videoMain/main.js',
     adminLogin: './src/pages/adminLogin/main.js',
-    videoPlay: './src/pages/videoPlay/main.js'
+    videoPlay: './src/pages/videoPlay/main.js',
+    searchVideo: './src/pages/searchVideo/main.js'
   },
   output: {
     path: config.build.assetsRoot,

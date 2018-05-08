@@ -50,6 +50,7 @@ module.exports = {
     videoMain: path.resolve(__dirname, '../dist/videoMain.html'),
     adminLogin: path.resolve(__dirname, '../dist/adminLogin.html'),
     videoPlay: path.resolve(__dirname, '../dist/videoPlay.html'),
+    searchVideo: path.resolve(__dirname, '../dist/searchVideo.html'),
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',

@@ -31,6 +31,7 @@ export default {
     width: 100%;
     height: 250px;
     background-color: rgba(206, 224, 255, 0.6);
+    clear: both;
   }
   .content{
     width: 1000px;

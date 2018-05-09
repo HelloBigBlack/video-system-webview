@@ -115,6 +115,10 @@ export default {
     margin-bottom: 10px;
     position: relative;
     cursor: pointer;
+    background-color: black;
+    display:flex;/*Flex布局*/
+    display: -webkit-flex; /* Safari */
+    align-items:center;/*指定垂直居中*/
   }
   .right-imgs .single-img .right-img-title{
     position: absolute;

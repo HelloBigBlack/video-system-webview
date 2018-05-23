@@ -1,7 +1,7 @@
 <template>
   <div id="banner">
     <div class="content">
-      <div class="banner-left">SuperC视频网站</div>
+      <div class="banner-left"><a href="videoMain.html">SuperC视频网站</a></div>
       <div class="banner-right">
         <div class="userMessage" v-if="alreadyLogged === false">
           <span @click="dialogLoginVisible = true">登录</span>
@@ -200,6 +200,10 @@ export default {
 </script>
 
 <style scoped>
+  a{
+    color: black;
+    text-decoration: none;
+  }
   #banner{
     height: 50px;
     width: 100%;

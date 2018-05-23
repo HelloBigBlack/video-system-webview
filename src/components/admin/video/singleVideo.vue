@@ -144,7 +144,7 @@ export default {
       })
     },
     playVideoById () {
-      window.open('http://localhost:9090/videoPlay.html#/videoPlay/' + this.video.videoId, '_blank')
+      window.open('videoPlay.html#/videoPlay/' + this.video.videoId, '_blank')
     },
     editVideoById () {
       this.getVideoLabels()

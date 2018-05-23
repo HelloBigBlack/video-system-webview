@@ -50,7 +50,7 @@ export default {
         .then(response => {
           if (response.data.code == '520') {
             sessionStorage.setItem('userId', response.data.extend.user.id)
-            window.location.href = 'admin.html'
+            window.location.href = 'admin.html#/admin/uploadVideo'
           } else {
             this.$message.error('密码错误')
           }

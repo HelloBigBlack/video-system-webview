@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     openVideo (videoId) {
-      window.open('http://localhost:9090/videoPlay.html#/videoPlay/' + videoId, '_blank')
+      window.open('videoPlay.html#/videoPlay/' + videoId, '_blank')
     }
   }
 }

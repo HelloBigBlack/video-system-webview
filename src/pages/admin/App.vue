@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header height="100px">SuperC 后台管理系统</el-header>
+      <el-header height="100px"><a href="videoMain.html">SuperC 后台管理系统</a></el-header>
       <el-container>
         <el-aside width="250px">
           <el-menu
@@ -80,6 +80,10 @@ export default {
     /*overflow-y: hidden;*/
     /*overflow-x: hidden !important;*/
   /*}*/
+  a{
+    color: black;
+    text-decoration: none;
+  }
   #app{
     height: 100%;
     width: 100%;

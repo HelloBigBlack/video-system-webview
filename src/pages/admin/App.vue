@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header height="100px"><a href="videoMain.html">SuperC 后台管理系统</a></el-header>
+      <el-header height="100px"><a href="videoMain.html" target="_blank">SuperC 后台管理系统</a></el-header>
       <el-container>
         <el-aside width="250px">
           <el-menu
